@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="library.js"></script>
+</head>
+<body>
+   <script>
+     let a = 6 //Int
+     let b = 4.5 //float
+     let c = true // boolean
+     let d = "A" // char
+     let e = "Lily" // string 
+
+     document.write("Nilai variabel a :" + a );
+     document.write("Nilai variabel b :" + b );
+     document.write("Nilai variabel c :" + c );
+     document.write("Nilai variabel d :" + d );
+     document.write("Nilai variabel e :" + e );
+
+     
+     
+     document.write("Nilai variabel a di fungsi: " + fungsi1())
+     tukar(a,b)
+     document.write("Hasil seleksi nilai: " + nilai(40))
+     document.write("Hasil seleksi nilai: " + konversinilai(40))
+    
+     progdi(A11)
+     
+   </script> 
+
+</body>
+</html>
