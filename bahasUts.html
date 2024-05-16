@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link resl="stylesheet" href="Asset/css/bootstrap.min.css">
+    <script src="Asset/js/pendaftaran/daftar2.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h3>Formulir Pendaftaran Mahasiswa</h3>
+        <div class="row">
+            <label for="">Nomor Pendaftaran</label>
+            <div class="form-group">
+                <div class="col-md-2">
+                    <input type="text" name="" id="nopendaf" class="form-control" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <label for="">Nama</label>
+            <div class="form-group">
+                <div class="col-md-4">
+                    <input type="text" name="" id="nama" class="form-control" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <label for="">Alamat</label>
+            <div class="form-group">
+                <div class="col-md-4">
+                    <textarea name="alamat" id="alamat" class="form-control"></textarea>
+                </div>
+            </div>
+        </div>  
+        <div class="row">
+            <label for="">Tanggal lahir</label>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <input type="date" name="" id="tglahir" class="form-control" required>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <label for="">Program Studi</label>
+            <div class="from-group">
+                <div class="col-md-3">
+                    <select  id="ps" class="form-control" required>
+                        <option disable selected>- Pilih Program Studi -</option>
+                        <option value="A11">Teknik Informatika S1</option>
+                        <option value="A12">Sistem Informasi S1</option>
+                        <option value="A14">Desain Kumunikasi Visual S1</option>
+                        <option value="A15">Ilmu Komunikasi S1</option>
+                        <option value="-">Lainnya</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <button class="btn btn-success" id="save" onclick="simpandaftar()">Simpan</button>
+            </div>
+        </div>
+        <div id="hasilinput"></div>
+    </div>
+</body>
+</html>
